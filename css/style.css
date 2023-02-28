@@ -1,0 +1,30 @@
+/* reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: pink;
+}
+
+/* common */
+
+.container {
+    width: 80%;
+    max-width: 62.5rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 5vw;
+    padding: 15px 0;
+}
+
+.unstyled-list  {
+    font-size: 2.5vw;
+    list-style-type: none;
+}

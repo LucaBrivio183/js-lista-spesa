@@ -4,12 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- local css files-->
+    <link rel="stylesheet" href="css/style.css">
     <title>Shopping list</title>
 </head>
 <body>
-    <ul class="unstyled-list">
+    <div class="container">
+        <h1>LISTA DELLA SPESA</h1>
+        <div class="input-field"> <!-- column just for  put label above input name text input--> 
+            <label for="input-item"></label>
+            <input type="text"  id="input-item">
+            <button type="button" id="add-btn">Aggiungi</button> 
+        </div>
+        <ul class="unstyled-list">
 
-    </ul>
+        </ul>
+    </div>
     <!-- local js files -->
     <script src="js/main.js"></script>
 </body>

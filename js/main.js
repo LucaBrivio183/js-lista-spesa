@@ -10,6 +10,19 @@ const shoppingList = [
     'pollo',
 ];
 
+//define variable for getting item from user input
+
+const shoppingListItem = document.getElementById("input-item");
+const addButton = document.getElementById('add-btn');
+
+addButton.addEventListener('click', 
+    
+    function() {
+        shoppingListItemValue = shoppingListItem.value;
+        shoppingList.push(shoppingListItemValue);
+});
+
+
 //define variable for html item
 
 const toBuyList = document.querySelector('.unstyled-list');
